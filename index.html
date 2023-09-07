@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>HNG Stage 1 Task</title>
+  </head>
+  <body>
+    <section class="card_wrapper">
+      <div class="card">
+        <div class="card_details">
+          <div class="currentDayOfTheWeek">
+            <p class="head">Current Day of the Week</p>
+            <p id="day" data-testid="currentDayOfTheWeek"></p>
+          </div>
+
+          <div class="currentUTCTime">
+            <p class="head">Current UTC Time</p>
+            <p id="time" data-testid="currentUTCTime"></p>
+          </div>
+
+          <div class="myTrack">
+            <p class="head">Track</p>
+            <p id="track" data-testid="myTrack">Front-End</p>
+          </div>
+        </div>
+        <div class="profile_details">
+          <img
+            src="./assets/images/image.JPG"
+            alt=""
+            data-testid="slackDisplayImage"
+            class="profileImage"
+          />
+          <h3 id="name" data-testid="slackUserName">
+            Ogunlade Stephen Olayide
+          </h3>
+          <button><a href="" data-testid="githubURL"> Github URL </a></button>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
